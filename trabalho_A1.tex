@@ -91,10 +91,10 @@ Os outros dois usam o modelo SEIR modificado e iremos usar esse mesmo esquema na
 
 \section{Modelagem}
 \subsection{Modelo Proposto}
-Para modelar os dados da epidemia no México escolhemos o modelo $SEIR$ (Suscetíveis, Expostos, Infecciosos e Recuperados), em que as classes são disjuntas e consideramos a população constante. Entre os contaminados pelo coronavírus, existem aqueles que apresentam severos sintomas e os que não apresentam. Os indivíduos sintomáticos, devido às limitações físicas, se movem menos que os assintomáticos, pensando nisso, consideramos que as taxas de transmição do vírus são diferentes e separaramos a classe Infecciosos em duas novas: $I_a$  $I_s$.
+Para modelar os dados da epidemia no México escolhemos o modelo $SEIR$ (Suscetíveis, Expostos, Infecciosos e Recuperados), em que as classes são disjuntas e consideramos a população constante. Entre os contaminados pelo coronavírus, existem aqueles que apresentam severos sintomas e os que não apresentam. Os indivíduos sintomáticos, devido às limitações físicas, se movem menos que os assintomáticos, pensando nisso, consideramos que as taxas de transmissão do vírus são diferentes e separamos a classe Infecciosos em duas novas: $I_a$  $I_s$.
 
-Em dois dos artigos que estudamos foi usado alguma variação do modelo SEIR. No artigo principal 1 foram adicionadas duas classes, hospitalizados ($H$) e indivíduos em estado crítico ($C$), para modelar a demanda de UTI.
-No artigo principal 2 foi usado uma versão modificada do modelo SEIR Kermack-McKendrick, em que o modelo dividia a populção em dois grupos: o primeiro segue à risca as recomendções de prevenção, incluindo isolamento social, enquanto o segundo não. Nesse mesmo modelo também foi feita a divisão do compartimento $I$ mencionada anteriormente. Para simplificação do nosso modelo, decidimos não adotar os compartimentos $H$ e $C$ e também não dividimos a população entre os indivíduos isolados e os que não se isolam.
+Em dois dos artigos que estudamos foi usada alguma variação do modelo SEIR. No artigo principal 1 foram adicionadas duas classes, hospitalizados ($H$) e indivíduos em estado crítico ($C$), para modelar a demanda de UTI.
+No artigo principal 2 foi usada uma versão modificada do modelo SEIR Kermack-McKendrick, em que o modelo dividia a população em dois grupos: o primeiro segue à risca as recomendações de prevenção, incluindo isolamento social, enquanto o segundo não. Nesse mesmo modelo também foi feita a divisão do  compartimento $I$ mencionada anteriormente. Para simplificação do nosso modelo, decidimos não adotar os compartimentos $H$ e $C$ e também não dividimos a população entre os indivíduos isolados e os que não se isolam.
 
 \subsection{Descrição do Modelo}
 
